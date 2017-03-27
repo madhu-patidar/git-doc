@@ -1,22 +1,25 @@
 ## Install Git
-
+```
 	sudo apt-get install git
-
+```
 ## git config
 
-	Sets configuration values for your user name, email, gpg key, preferred diff algorithm, file formats and more. Example:
+	Sets configuration values for your user name, email, gpg key, preferred diff algorithm, file formats and more.
+	```
+		git config user.name "Billy Everyteen"
+		# Set a new name
 
-	git config user.name "Billy Everyteen"
-	# Set a new name
-	git config user.name
-	# Verify the setting
-	Billy Everyteen
+		git config user.name
+		# Verify the setting
+		Billy Everyteen
+	```
 
 ## git init
 
 	Initializes a git repository – creates the initial ‘.git’ directory in a new or in an existing project.  
-		
+```
 		cd /home/user/my_new_git_folder/ git init
+```
 
 ## git clone
 
