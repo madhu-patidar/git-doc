@@ -52,9 +52,21 @@ Checks out a different branch – switches branches by updating the index, worki
 
 ## git branch
 
-Lists existing branches, including remote branches if ‘-a’ is provided. Creates a new branch if a branch name is provided.
+1. List all of the branches in your repository.
 
-	git branch -a * master remotes/origin/master
+		git branch 
+
+2. Create a new branch called branch_name. This does not check out the new branch.
+
+		git branch branch_name
+
+3. Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development.
+
+		git branch -D branch_name
+
+4. Rename the current branch to branch .
+
+		git branch -m branch_name
 
 ## git merge
 
